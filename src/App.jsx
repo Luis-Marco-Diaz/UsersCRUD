@@ -2,7 +2,7 @@ import './App.css'
 import axios from "axios";
 import { useState, useEffect } from "react";
 import ProductsList from "./components/ProductsList";
-import ProductForm from './components/productForm';
+import ProductForm from './components/ProductForm';
 
 function App() {
   const [productsList, setProductsList] = useState([]);
